@@ -1,6 +1,6 @@
 public class Menu{
     
-    private static void runMenu(StudentDatabase db) throws IllegalArgumentException{
+    private static void run(StudentDatabase db) throws IllegalArgumentException{
         
         Scanner in = new Scanner(System.in);
         int answer = 1;
