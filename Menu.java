@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Menu{
     
-    public static void run(StudentDatabase db) throws IllegalArgumentException{
+    public void run(StudentDatabase db) throws IllegalArgumentException{
         
         Scanner in = new Scanner(System.in);
         int answer = 1;
