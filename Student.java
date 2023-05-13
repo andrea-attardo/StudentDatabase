@@ -44,7 +44,7 @@ public class Student{
         
     }
     
-    
+
     public void printCoursesPayed(){
         for(Course course : enrolledCourses){
             if (course.isTuitionPayed()){
