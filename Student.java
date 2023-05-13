@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.security.SecureRandom;
 
 enum UniYear {FRESH, SOPHO, JUNIOR, SENIOR};
-
+//prova commento andrea
 public class Student{ 
     
     //attributi
