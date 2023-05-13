@@ -6,21 +6,10 @@ public class StudentDatabaseApp{
         
         StudentDatabase studentsDB = new StudentDatabase();
         
-        runMenu(studentsDB);
+        Menu menu = new Menu();
+
+        menu.run(studentsDB);
         
-        
-        /*
-        Student giampiero = new Student("Giampiero", UniYear.SOPHO);
-        
-        
-        System.out.println(giampiero);
-        
-        Student franco = new Student("Franco", UniYear.FRESH);
-        
-        
-        System.out.println(giampiero);
-        System.out.println(franco);
-        */
     }
     
     
